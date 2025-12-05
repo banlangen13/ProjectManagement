@@ -1,0 +1,22 @@
+{
+    // 使用 IntelliSense 获取有关属性的说明。
+    // 将鼠标悬停在属性上以查看更多信息。
+    // 访问 https://go.microsoft.com/fwlink/?linkid=830387 获取更多信息。
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python 调试程序: 当前文件",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: 运行主程序",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py", // 这里填写你的主文件路径，假设是 `main.py`
+            "console": "integratedTerminal"
+        }
+    ]
+}
